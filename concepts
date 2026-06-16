@@ -1,7 +1,69 @@
-#html:5 (for all html data)
-# to add randam paragraph 
+!!html:5 (for all html data)
+
+!! to add randam paragraph 
 lorem20 
-#css 
+
+!!css 
 -> id selector 
+#para-id 
 -> class selector 
+.next-para
 ->element 
+
+!! css colors 
+1. name -red,green,blue 
+2.rgb-(r, g, b)
+  0-255(how much of that colour we want)
+  percentage (0-100%)
+3. hexadecimal 
+    HEX: #xxxxxx
+    00-FF
+4.HEX:SHORTHAND:#XXX === #445566 ==>#456
+
+
+!! Boarder 
+border-width:1px;
+border-style:solid;
+border-color:yellow;
+borrder-radius:10px;
+-> border:20px solid purple;
+
+!!BOX MODEL 
+margin-top ,margin-bottom , margin-left,margin-right 
+padding-top,padding-bottom,padding-left,padding-right 
+shortcut 
+one-value(1side)
+two-value (top&bottom    left&right)
+three-values (top left&right bottom)
+four-values (top right bottom left )
+auto (horizontally center)
+
+!!anchor tag and styles used for hyperlinks 
+<a href ="URL">Home</a>
+<a href ="URL">About</a>
+<a href ="URL">Contact us</a>
+<a href ="URL">Phone Number</a>
+->text-decoration 
+->margin,padding, border
+->hover (mouse bc color)
+
+!! img tag and styles 
+<img src="URL" alt="DOGIMAGE" width=" " height="">
+src url can be any web or local path , alt = laertantive path incase if image isnt acessible width and height are typically some length and bredth of the image 
+->box-shadow:
+->capacity:
+->tranform:
+->border-radius:
+-> img-hover{
+    basically helps us to give effectx the pciture 
+}
+
+!!block vs inline elements 
+anchor tags aere unique inline elemnts they help us identufy elements individually 
+block elemnts  helps us find in sentences etc 
+
+!!DIV AND SPAN 
+div - blockline element 
+span - inline element 
+used as containers for other elemnts 
+if we wanted to highlight something we would use span which will help us highlight the entire sentenced 

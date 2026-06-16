@@ -1,9 +1,26 @@
 h1 {
-    color :aqua;
+    color :rgb(65%,15%,10%);
+    
 }
-#para-id{
-    color:aquamarine;
+/*#para-id{
+    color:blue;
+    border: 2px solid aquamarine;
 }
 .next-para{
-    color: blueviolet;
+    color: #0fff5b;;
+}*/
+/*paragarph tags */
+p{
+    padding: 30px 20px 10px 15px;
+    margin: 30px 20px 10px 15px;
+    border: 10px solid #222;
+}
+/*anchor tags*/
+a{
+    text-decoration:none;
+    border:5px solid purple;
+}
+/* the below oe gives like when you move ur mouse on the anchor tag it will help show you that color which you added here its pink, basically  acts like a backgorund color*/
+a:hover{
+    background-color:pink
 }
