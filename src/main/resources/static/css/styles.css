@@ -1,26 +1,60 @@
+styles.css
+
+
 h1 {
-    color :rgb(65%,15%,10%);
-    
+    color :rgb(8, 0, 255);
 }
-/*#para-id{
-    color:blue;
-    border: 2px solid aquamarine;
+
+#heading-2 {
+    color: rgb(228, 71, 31);
 }
-.next-para{
-    color: #0fff5b;;
-}*/
-/*paragarph tags */
-p{
-    padding: 30px 20px 10px 15px;
-    margin: 30px 20px 10px 15px;
-    border: 10px solid #222;
+
+.heading {
+    color: green;
 }
-/*anchor tags*/
-a{
-    text-decoration:none;
-    border:5px solid purple;
+
+#para {
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
 }
-/* the below oe gives like when you move ur mouse on the anchor tag it will help show you that color which you added here its pink, basically  acts like a backgorund color*/
-a:hover{
-    background-color:pink
+.navbar {
+    border: 3px solid black;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    background-color: rgb(194, 140, 140);
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+}
+
+.card button{
+    margin-bottom: 20px;
 }
